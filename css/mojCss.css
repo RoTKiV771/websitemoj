@@ -1,0 +1,16 @@
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.image-left, .image-right {
+    width: 48%; /* Svaka slika će zauzeti polovinu širine */
+}
+
+.about-img img {
+    width: 300px; /* Postavlja širinu na 300 piksela */
+    height: auto; /* Visina se automatski prilagođava */
+}
+
